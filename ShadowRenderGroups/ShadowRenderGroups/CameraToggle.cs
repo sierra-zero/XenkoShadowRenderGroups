@@ -20,8 +20,8 @@ namespace ShadowRenderGroups
 
         public override void Update()
         {
-            DebugText.Print(selectedCamera,new Int2(x: 5, y: 10));
-            DebugText.Print("Figure out how to get rid of the sphere shadow (not the cube) on Camera1 to unlock unlimited happiness.",new Int2(x: 5, y: 710));
+            DebugText.Print($"Tab to switch: {selectedCamera}",new Int2(x: 5, y: 10));
+            DebugText.Print("Figure out how to get rid of the sphere shadow (not the cube or cube shadow) on Camera1 to unlock unlimited happiness.",new Int2(x: 5, y: 710));
 
             if (Input.IsKeyPressed(Keys.Tab)) {
                 switch (Camera1.Enabled) {
