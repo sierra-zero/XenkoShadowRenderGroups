@@ -7,4 +7,6 @@ Requirement:
 3) You cannot disable the shadow on the object/model.
 4) Preferably done through compositor, but any other approach is appreciated.
 
+A camera toggle is availale using [Tab].
+
 Good luck!
